@@ -1,45 +1,21 @@
 /* Estilos de encabezado */
 
-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-  }
-  
   header img {
-    height: 50px;
-    margin: 10px;
+   width: 500px;
+  object-fit: initial;
+  margin-inline-start: 400px;
   }
-  
-  header nav {
-    float: right;
-    margin-top: 20px;
-  }
-  
+
   header ul {
     list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
+    width: 100px;
   }
   
   header li {
-    margin-left: 20px;
-  }
-  
-  header a {
-    color: #ffffff00;
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: bold;
-    padding: 10px 20px;
-  }
-  
-  /* Agregar un margen superior al contenido */
-  
-  main {
-    margin-top: 80px;
+    text-align: right;
+    margin-right: 500%;
+    justify-content: center;
+    font-size: large;
   }
 
 /* Estilos generales */
@@ -56,11 +32,14 @@ header {
     line-height: 1.5;
     color: #333;
     background: linear-gradient(to bottom right, #f7b2b2, #b2f7b2, #b2b2f7);
+    text-align: justify;
+
   }
   
   a {
     color: #333;
     text-decoration: none;
+    text-align: justify;
   }
   
   ul {
@@ -77,19 +56,7 @@ header {
   
   /* Estilos de navegación */
   
-  nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: rgba(255, 255, 255, 0.8);
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 2;
-  }
-  
+
   nav ul {
     display: flex;
   }
@@ -114,6 +81,7 @@ header {
   h1 {
     font-size: 36px;
     margin-bottom: 30px;
+    text-align: center;
   }
   
   /* Estilos de sección */
@@ -121,13 +89,14 @@ header {
   section {
     max-width: 1200px;
     margin: 50px auto;
-    text-align: center;
+    text-align: justify;
     padding: 0 20px;
   }
   
   h2 {
     font-size: 30px;
     margin-bottom: 30px;
+    text-align: justify;
   }
   
   section ul {
