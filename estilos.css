@@ -1,0 +1,239 @@
+/* Estilos de encabezado */
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  header img {
+    height: 50px;
+    margin: 10px;
+  }
+  
+  header nav {
+    float: right;
+    margin-top: 20px;
+  }
+  
+  header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  header li {
+    margin-left: 20px;
+  }
+  
+  header a {
+    color: #ffffff00;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+  }
+  
+  /* Agregar un margen superior al contenido */
+  
+  main {
+    margin-top: 80px;
+  }
+
+/* Estilos generales */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background: linear-gradient(to bottom right, #f7b2b2, #b2f7b2, #b2b2f7);
+  }
+  
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  img,
+  video {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  /* Estilos de navegación */
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+  }
+  
+  nav ul {
+    display: flex;
+  }
+  
+  nav li {
+    margin-left: 20px;
+  }
+  
+  nav a:hover {
+    color: #f00;
+  }
+  
+  /* Estilos de encabezado */
+  
+  main {
+    max-width: 1200px;
+    margin: 100px auto;
+    text-align: center;
+    padding: 0 20px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  /* Estilos de sección */
+  
+  section {
+    max-width: 1200px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 0 20px;
+  }
+  
+  h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  
+  section ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  section li {
+    max-width: 350px;
+    margin-bottom: 50px;
+  }
+  
+  section h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  section p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos de pie de página */
+  
+  footer {
+    background-color: #00bfff;
+    padding: 40px 20px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  footer form {
+    max-width: 400px;
+    margin: 0 auto 20px;
+  }
+  
+  footer label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  footer input[type='text'],
+  footer input[type='email'] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  footer input[type='submit'] {
+    background-color: #f00;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  footer input[type='submit']:hover {
+    background-color: #fff;
+    color: #f00;
+  }
+  
+  footer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  footer li {
+    margin-left: 20px;
+    font-size: 24px;
+  }
+  
+  /* Estilos de medios */
+  
+  @media screen and (max-width: 768px) {
+    nav {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    nav ul {
+      margin-top: 20px;
+    }
+  
+    nav li {
+      margin-left: 0;
+      margin-right: 20px;
+    }
+  
+    main {
+      margin: 80px auto;
+    }
+  
+    section li {
+      max-width: 100%;
+    }
+  
+    section ul {
+      justify-content: center;
+    }
+  }
